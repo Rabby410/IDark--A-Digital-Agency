@@ -31,3 +31,72 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Common CSS */
+.swiper-wrapper{
+  margin-bottom: 50px !important;
+}
+.swiper-button-prev{
+  color: #ffffff !important;
+}.swiper-button-next{
+  color: #ffffff !important;
+}
+
+.index__swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+/* Increase Pagination Bullet Size */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  opacity: 1 !important;
+  background-color: #3f3e3e !important;
+}
+
+/* Change Selected Pagination Color */
+.swiper-pagination-bullet-active {
+  background-color: #e50505 !important;
+}
+
+.portfolio .swiper-pagination-bullet {
+  background-color: #D0D5DD !important;
+}
+.portfolio .swiper-pagination-bullet-active {
+  background-color: #667085 !important;
+}
+
+/* Swiper End */
+
+.tborder-bottom{
+  width: 10%;
+  transition: width 0.5s ease;
+  cursor: pointer;
+}
+.tborder-bottom:hover{
+  width: 37%;
+  transition-delay: 0.3s;
+}
+
+
+.title{
+  /* text-{#1f1f25] text-[60px] font-[700] */
+  color: #1f1f25;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.sub-title{
+  /* text-[#1f1f25] font-semibold text-3xl */
+  font-size: 30px;
+  line-height: 36px;
+  color: #1f1f25;
+  font-weight: 500;
+}
+
+.para{
+  /* text-[#717173] text-xl */
+  font-size: 20px;
+  line-height: 28px;
+  color: #717173;
+  
+}
