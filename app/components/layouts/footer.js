@@ -14,7 +14,7 @@ const Footer = () => {
                     Ready To Do This
                   </h3>
                   <h1 className="font-[900] text-[75px] text-white leading-[90px]">
-                    Let's get to work
+                    Let&apos;s get to work
                   </h1>
                   <button className="py-5 px-8 mt-[30px] border border-white rounded-lg text-white font-[500] uppercase tracking-[2px] hover:bg-white hover:text-[#ee076e]">
                     Contact Us
@@ -34,7 +34,7 @@ const Footer = () => {
                             <ul>
                                 <li className="mt-5 text-[20px] font-normal leading-3">Work</li>
                                 <li className="mt-5 text-[20px] font-normal leading-3">About</li>
-                                <li className="mt-5 text-[20px] font-normal leading-3">Let's Talk</li>
+                                <li className="mt-5 text-[20px] font-normal leading-3">Let&apos;s Talk</li>
                             </ul>
                         </div>
                         <div>

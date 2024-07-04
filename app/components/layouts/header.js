@@ -1,18 +1,19 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Header = () => {
   return (
     <header className="">
       <div className="container mx-auto flex justify-between items-center py-4">
-        {/* Logo */}
         <div className="flex-shrink-0">
           <Link href="/">
-            <img
-              src="/images/idark-logo.png"
+            <Image src="/images/idark-logo.png"
               alt="Logo"
-              className=" h-auto hover:scale-110 transition-transform duration-300"
-            />
+              width={300}
+              height={100}
+              className=" h-auto hover:scale-110 transition-transform duration-300"/>
           </Link>
         </div>
 
