@@ -6,11 +6,13 @@ const OurWorks = () => {
     <>
       <div className="bg-white py-20">
         <div className="container mx-auto mb-7">
+          <div className="mx-5 md:mx-0">
           <h1 className="title mb-5">Our Works</h1>
           <p className="para">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>
+          </div>
         </div>
         <div>
             <WorkSlider/>

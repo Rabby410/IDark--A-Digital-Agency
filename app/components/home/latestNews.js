@@ -26,16 +26,16 @@ const latestNews = [
 
 const LatestNews = () => {
   return (
-    <div className="py-20 bg-white">
+    <div className="py-20 px-5 md:px-0 bg-white">
       <div className="container mx-auto">
         <div className="mb-12">
           <h1 className="title">Latest News</h1>
-          <div className="flex mx-auto justify-between items-baseline">
+          <div className="flex flex-wrap mx-auto justify-between items-baseline">
             <p className="para max-w-3xl">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration.
             </p>
-            <div className="mb-3">
+            <div className="mb-3 mt-5 md:mt-0">
               <span className="inline-block whitespace-nowrap border-b-2 border-red-500 nborder-bottom hover:text-red-500">
                 View All News
               </span>

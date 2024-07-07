@@ -109,3 +109,17 @@ body {
   color: #717173;
   
 }
+@media (max-width: 768px) {
+  /* Example media query for responsiveness */
+  .title {
+    font-size: 40px; /* Adjust font-size for smaller screens */
+  }
+
+  .sub-title {
+    font-size: 24px; /* Adjust font-size for smaller screens */
+  }
+
+  .para {
+    font-size: 18px; /* Adjust font-size for smaller screens */
+  }
+}

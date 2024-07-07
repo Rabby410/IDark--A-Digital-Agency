@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/layouts/footer";
+import BackToTopButton from "./components/common/backtoTop";
+import LoadingIndicator from "./components/common/loadingIndicator";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +17,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Footer />
+        <LoadingIndicator />
+        <BackToTopButton />
       </body>
     </html>
   );

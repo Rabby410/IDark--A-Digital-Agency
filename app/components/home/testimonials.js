@@ -53,7 +53,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <div className="py-20">
+      <div className="py-20 mx-5 md:mx-0">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <h3 className="sub-title text-center">
             {testimonialData[selectedClientIndex].text}
@@ -65,7 +65,7 @@ const Testimonials = () => {
             - COO, AMERIMAR ENTERPRISES, INC.
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8 mt-5">
+          <div className="flex flex-wrap items-center gap-2 mt-5 md:max-w-[40%]">
             {testimonialData.map((client, index) => (
               <div
               key={index}

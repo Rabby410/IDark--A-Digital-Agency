@@ -6,6 +6,7 @@ import OurWorks from "./components/home/ourWorks";
 import OurFunFacts from "./components/home/ourFunFacts";
 import Testimonials from "./components/home/testimonials";
 import LatestNews from "./components/home/latestNews";
+import BrandsSection from "./components/home/brands";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <OurFunFacts/>
     <Testimonials/>
     <LatestNews/>
+    <BrandsSection />
     </>
   );
 }

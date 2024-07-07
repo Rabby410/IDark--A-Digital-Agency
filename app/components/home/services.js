@@ -3,14 +3,14 @@ import React from "react";
 const Services = () => {
   return (
     <>
-      <div className="py-20">
+      <div className="py-20 px-5 md-px-0">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid md:grid-cols-3 grid-cols-2 gap-5">
             <div className="">
               <h1 className="title mb-2">
                 Services
               </h1>
-              <p className="para pb-[120px]">
+              <p className="para pb-[30px] md:pb-[120px]">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration.
               </p>
