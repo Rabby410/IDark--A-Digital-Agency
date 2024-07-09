@@ -37,8 +37,8 @@ const VideoPopup = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/QsY8fnvMn6c?si=ZxOhriZ1Ko5B6KO7"
-              title="YouTube video player"
+              src="https://www.youtube.com/embed/QsY8fnvMn6c?si=ZxOhriZ1Ko5B6KO7?autoplay=1"
+              title="Idark -A digital Agency Tamplate"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"

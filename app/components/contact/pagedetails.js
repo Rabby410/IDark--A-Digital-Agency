@@ -5,7 +5,7 @@ import { TiWorld } from "react-icons/ti";
 
 const ContactPagedetails = () => {
   return (
-    <div className="relative bg-[url('/images/contact-us/contact.jpg')] bg-cover bg-center">
+    <div className="bg-[url('/images/contact-us/contact.jpg')] bg-cover bg-center">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-1 justify-center">
                     <div className="mt-[18px] md:mt-[150px] mx-10 md:mx-0">

@@ -6,7 +6,7 @@ import NewsLetter from '../components/common/newsLetter'
 const Contact = () => {
   return (
     <>
-    <Breadcrumbs pageTitle="Contact" parentPage="Home" parentPageUrl="/"/>
+    <Breadcrumbs pageTitle="Contact" parentPage="Home" parentPageUrl="/" bgImage="/images/contact-us/bg-image-17.jpg" />
     <ContactPagedetails/>
     {/* <NewsLetter/> */}
     </>

@@ -5,7 +5,7 @@ import ServicesPage from '../components/services/servicesPage'
 const Services = () => {
   return (
    <>
-   <Breadcrumbs pageTitle="Services" parentPage="Home" parentPageUrl="/"/>
+   <Breadcrumbs pageTitle="Services" parentPage="Home" parentPageUrl="/" />
    <ServicesPage />
    </>
   )

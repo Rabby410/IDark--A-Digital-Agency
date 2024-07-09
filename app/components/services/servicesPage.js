@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ServicesPage = () => {
@@ -12,6 +13,7 @@ const ServicesPage = () => {
               but the majority have suffered alteration.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-10">
+              <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -40,6 +42,9 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+              </Link>
+
+              <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -69,6 +74,9 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+              </Link>
+
+              <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -99,6 +107,9 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+              </Link>
+
+              <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -135,6 +146,9 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+              </Link>
+
+              <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -164,6 +178,9 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+              </Link>
+              
+              <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -194,6 +211,7 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -206,6 +224,7 @@ const ServicesPage = () => {
               but the majority have suffered alteration.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-10">
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -234,6 +253,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -263,6 +284,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -293,6 +316,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -329,6 +354,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -358,6 +385,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -388,6 +417,7 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
             </div>
           </div>
         </div>
@@ -400,6 +430,7 @@ const ServicesPage = () => {
             but the majority have suffered alteration.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-10">
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -428,6 +459,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -457,6 +490,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -487,6 +522,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -523,6 +560,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -552,6 +591,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -582,6 +623,7 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
             </div>
           </div>
         </div>
@@ -594,6 +636,7 @@ const ServicesPage = () => {
             but the majority have suffered alteration.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-10">
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -622,6 +665,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -651,6 +696,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -681,6 +728,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -717,6 +766,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -746,6 +797,8 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
+            <Link href="/services/service-details">
               <div className="rounded-lg overflow-hidden">
                 <div className="group hover:bg-gradient-to-r hover:from-red-600 hover:via-red-500 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1">
                   <svg
@@ -776,6 +829,7 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+            </Link>
             </div>
           </div>
         </div>

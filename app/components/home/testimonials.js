@@ -53,7 +53,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <div className="py-20 mx-5 md:mx-0">
+      <div className="py-20 mx-5 md:mx-0 bg-[#f8f9fc]">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <h3 className="sub-title text-center">
             {testimonialData[selectedClientIndex].text}
