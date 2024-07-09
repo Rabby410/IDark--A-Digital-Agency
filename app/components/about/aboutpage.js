@@ -2,6 +2,7 @@ import React from 'react'
 import OurFunFacts from '../home/ourFunFacts'
 import Testimonials from '../home/testimonials'
 import BrandsSection from '../home/brands'
+import SkilledTeam from './skilledTeam'
 
 const Aboutpage = () => {
   return (
@@ -47,6 +48,7 @@ const Aboutpage = () => {
     </div>
 
     <OurFunFacts/>
+    <SkilledTeam/>
     <Testimonials/>
     <BrandsSection/>
   </>
