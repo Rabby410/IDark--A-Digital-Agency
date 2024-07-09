@@ -23,10 +23,10 @@ const Navbar = () => {
   // Array containing navigation items
   const navItems = [
     { id: 1, text: 'Home', link:'/' },
-    { id: 2, text: 'Services', link:'/services', 
+    { id: 2, text: 'Services', link:'', 
       subMenu: [
         { id: 21, text: 'Services', link: '/services' },
-        { id: 22, text: 'Services Details', link: '/services-details' }
+        { id: 22, text: 'Services Details', link: '/services/services-details' }
       ]
     },
     { id: 3, text: 'About', link:'/about' },
@@ -59,7 +59,7 @@ const Navbar = () => {
             </Link>
             {/* Submenu for Services */}
             {item.subMenu && (
-              <ul className='absolute hidden group-hover:block mt-1 bg-gray-900 text-white rounded-lg shadow-lg'>
+              <ul className='absolute hidden group-hover:block mt-1 bg-gray-900 text-white rounded-lg shadow-lg w-40 whitespace-nowrap'>
                 {item.subMenu.map(subItem => (
                   <li key={subItem.id}>
                     <Link href={subItem.link} className='block p-2 hover:bg-red-500 hover:text-black'>
