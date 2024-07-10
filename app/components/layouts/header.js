@@ -30,22 +30,27 @@ const Navbar = () => {
       ]
     },
     { id: 3, text: 'About', link:'/about' },
-    { id: 4, text: 'Pages', link:'/pages' },
+    { id: 4, text: 'Pages', link:'', 
+      subMenu: [
+        { id: 23, text: 'Blog List', link: '/blog' },
+        { id: 24, text: 'Blog Details', link: '/blog/blog-details' }
+      ]
+    },
     { id: 5, text: 'Contact', link:'/contact' },
   ];
 
   return (
     <div className='flex justify-between items-center h-32 container mx-auto px-4 md:py-5 text-white'>
       {/* Logo */}
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>
-        <Image
+      <Link href="/" className='w-full text-3xl font-bold text-[#00df9a]'>
+      <Image
           src="/images/idark-logo.png"
           alt="Logo"
           width={300}
           height={100}
           className="h-auto hover:scale-110 transition-transform duration-300"
         />
-      </h1>
+      </Link>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
@@ -59,7 +64,7 @@ const Navbar = () => {
             </Link>
             {/* Submenu for Services */}
             {item.subMenu && (
-              <ul className='absolute hidden group-hover:block mt-1 bg-gray-900 text-white rounded-lg shadow-lg w-40 whitespace-nowrap'>
+              <ul className='md:mt-3 md:ml-2 absolute hidden group-hover:block mt-1 bg-gray-900 text-white rounded-lg shadow-lg w-40 whitespace-nowrap'>
                 {item.subMenu.map(subItem => (
                   <li key={subItem.id}>
                     <Link href={subItem.link} className='block p-2 hover:bg-red-500 hover:text-black'>

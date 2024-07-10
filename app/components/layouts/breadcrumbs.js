@@ -8,7 +8,7 @@ const Breadcrumbs = ({ pageTitle, parentPage, parentPageUrl, bgImage }) => {
 
   return (
     <>
-      <div className="bg-[#1d1d24]">
+      <div className="bg-[#1d1d24] relative z-50">
         <div
           className="bg-no-repeat bg-cover"
           style={{

@@ -36,7 +36,7 @@ const WorkSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="pt-96 relative overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <div className="group group pt-96 relative overflow-hidden rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
             <div
               className="absolute inset-0 z-0"
               style={{
@@ -47,22 +47,21 @@ const WorkSlider = () => {
                 width: "100%",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="relative z-10 p-6 flex flex-col justify-end h-full">
               <p className="text-white mb-4">Design</p>
               <h2 className="text-3xl font-bold text-white mb-4">
                 Creative Solutions
               </h2>
-              <button className="bg-white text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors duration-300">
+              <button className="bg-white text-gray-800 group-hover:text-white group-hover:scale-105 group-hover:bg-red-300 py-2 px-4 rounded-lg transition-colors duration-300">
                 View Project
               </button>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pt-96 relative overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <div className="group pt-96 relative overflow-hidden rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
             <div
               className="absolute inset-0 z-0"
               style={{
@@ -73,22 +72,21 @@ const WorkSlider = () => {
                 width: "100%",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="relative z-10 p-6 flex flex-col justify-end h-full">
               <p className="text-white mb-4">Design</p>
               <h2 className="text-3xl font-bold text-white mb-4">
                 Creative Solutions
               </h2>
-              <button className="bg-white text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors duration-300">
+              <button className="bg-white text-gray-800 group-hover:text-white group-hover:scale-105 py-2 px-4 rounded-lg group-hover:bg-red-300 transition-colors duration-300">
                 View Project
               </button>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pt-96 relative overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <div className="group pt-96 relative overflow-hidden rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
             <div
               className="absolute inset-0 z-0"
               style={{
@@ -99,22 +97,21 @@ const WorkSlider = () => {
                 width: "100%",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="relative z-10 p-6 flex flex-col justify-end h-full">
               <p className="text-white mb-4">Design</p>
               <h2 className="text-3xl font-bold text-white mb-4">
                 Creative Solutions
               </h2>
-              <button className="bg-white text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors duration-300">
+              <button className="bg-white text-gray-800 group-hover:text-white group-hover:scale-105 py-2 px-4 rounded-lg group-hover:bg-red-300 transition-colors duration-300">
                 View Project
               </button>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pt-96 relative overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <div className="group pt-96 relative overflow-hidden rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
             <div
               className="absolute inset-0 z-0"
               style={{
@@ -125,22 +122,21 @@ const WorkSlider = () => {
                 width: "100%",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="relative z-10 p-6 flex flex-col justify-end h-full">
               <p className="text-white mb-4">Design</p>
               <h2 className="text-3xl font-bold text-white mb-4">
                 Creative Solutions
               </h2>
-              <button className="bg-white text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors duration-300">
+              <button className="bg-white text-gray-800 group-hover:text-white group-hover:scale-105 py-2 px-4 rounded-lg group-hover:bg-red-300 transition-colors duration-300">
                 View Project
               </button>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pt-96 relative overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <div className="group pt-96 relative overflow-hidden rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
             <div
               className="absolute inset-0 z-0"
               style={{
@@ -151,22 +147,21 @@ const WorkSlider = () => {
                 width: "100%",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="relative z-10 p-6 flex flex-col justify-end h-full">
               <p className="text-white mb-4">Design</p>
               <h2 className="text-3xl font-bold text-white mb-4">
                 Creative Solutions
               </h2>
-              <button className="bg-white text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors duration-300">
+              <button className="bg-white text-gray-800 group-hover:text-white group-hover:scale-105 py-2 px-4 rounded-lg group-hover:bg-red-300 transition-colors duration-300">
                 View Project
               </button>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pt-96 relative overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <div className="group pt-96 relative overflow-hidden rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
             <div
               className="absolute inset-0 z-0"
               style={{
@@ -177,22 +172,21 @@ const WorkSlider = () => {
                 width: "100%",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="relative z-10 p-6 flex flex-col justify-end h-full">
               <p className="text-white mb-4">Design</p>
               <h2 className="text-3xl font-bold text-white mb-4">
                 Creative Solutions
               </h2>
-              <button className="bg-white text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors duration-300">
+              <button className="bg-white text-gray-800 group-hover:text-white group-hover:scale-105 py-2 px-4 rounded-lg group-hover:bg-red-300 transition-colors duration-300">
                 View Project
               </button>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pt-96 relative overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <div className="group pt-96 relative overflow-hidden rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-300">
             <div
               className="absolute inset-0 z-0"
               style={{
@@ -203,17 +197,16 @@ const WorkSlider = () => {
                 width: "100%",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="relative z-10 p-6 flex flex-col justify-end h-full">
               <p className="text-white mb-4">Design</p>
               <h2 className="text-3xl font-bold text-white mb-4">
                 Creative Solutions
               </h2>
-              <button className="bg-white text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors duration-300">
+              <button className="bg-white text-gray-800 group-hover:text-white group-hover:scale-105 py-2 px-4 rounded-lg group-hover:bg-red-300 transition-colors duration-300">
                 View Project
               </button>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
           </div>
         </SwiperSlide>

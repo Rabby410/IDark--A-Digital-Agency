@@ -3,7 +3,9 @@
 import React, { useState } from "react";
 import { FiX, FiPlayCircle } from "react-icons/fi";
 
-const VideoPopup = () => {
+const VideoPopup = ({image}) => {
+  const defaultImage = "/images/services/service-02.png";
+  const imageSrc = image || defaultImage;
   const [showVideoPopup, setShowVideoPopup] = useState(false);
 
   const openVideoPopup = () => {
@@ -18,7 +20,7 @@ const VideoPopup = () => {
     <>
       <div className="relative">
         <img
-          src="/images/services/service-02.png"
+          src={imageSrc}
           alt="Service Image"
           className="md:pl-20 cursor-pointer"
           onClick={openVideoPopup}

@@ -54,7 +54,7 @@ const LatestNews = () => {
                   backgroundImage: `url(${newsItem.image})`,
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-red-500 opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={newsItem.url}
